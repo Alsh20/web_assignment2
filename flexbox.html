@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox - Layout Lab</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="brand" href="index.html" aria-label="Layout Lab home">
+                <span class="brand-mark">L</span>
+                <span>Layout Lab</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Assignment navigation">
+                <a href="flexbox.html">Flexbox</a>
+                <a href="grid.html">Grid</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+
+            <a class="header-cta" href="flexbox.html">
+                Explore tasks <span class="arrow">-></span>
+            </a>
+        </header>
+    <main class="page-main">
+        <section class="content-section" id="flexbox">
+            <div class="section-intro">
+                <div class="section-number">01</div>
+                <div>
+                    <p class="eyebrow">Part one · Flexbox</p>
+                    <h2>A row that stays in rhythm</h2>
+                </div>
+                <p class="section-copy">Three equal-height cards use flexible alignment, a consistent gap and a subtle lift on hover</p>
+            </div>
+
+            <div class="card-row">
+
+                <article class="story-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1529307474719-3d0a417aaf8a?auto=format&fit=crop&w=1200&q=85" alt="Orange and black high-rise facade">
+                        <span>01</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-category">Architecture</p>
+                        <h3>Urban Rhythm</h3>
+                        <p>A visual study of rhythm, contrast and human scale in modern urban spaces</p>
+                        <a href="#gallery">View story <span class="arrow">-></span></a>
+                    </div>
+                </article>
+
+                <article class="story-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1560840067-ddcaeb7831d2?auto=format&fit=crop&w=1200&q=85" alt="Blue and yellow modern building">
+                        <span>02</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-category">Color study</p>
+                        <h3>A brighter perspective</h3>
+                        <p>How a confident palette can turn an ordinary structure into a local landmark</p>
+                        <a href="#gallery">View story <span class="arrow">-></span></a>
+                    </div>
+                </article>
+
+                <article class="story-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1578344147728-e2ad1d7a66eb?auto=format&fit=crop&w=1200&q=85" alt="Red and blue concrete architecture">
+                        <span>03</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-category">Photography</p>
+                        <h3>Geometry in motion</h3>
+                        <p>Finding energy and unexpected compositions in lines, shadows and repetition</p>
+                        <a href="#gallery">View story <span class="arrow">-></span></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+        <footer class="demo-footer">
+            <span>Layout built with named grid areas</span>
+            <span>Alisher :P</span>
+        </footer>
+    </body>
+</html>

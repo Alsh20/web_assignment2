@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Layout Lab</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="brand" href="index.html" aria-label="Layout Lab home">
+                <span class="brand-mark">L</span>
+                <span>Layout Lab</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Assignment navigation">
+                <a href="flexbox.html">Flexbox</a>
+                <a href="grid.html">Grid</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+
+            <a class="header-cta" href="flexbox.html">
+                Explore tasks <span class="arrow">-></span>
+            </a>
+        </header>
+    <main class="page-main">
+        <section class="portfolio-section" id="portfolio">
+            <div class="section-intro">
+                <div class="section-number">04</div>
+                <div>
+                    <p class="eyebrow">Part three · Flexbox + Grid</p>
+                    <h2>A portfolio with personality</h2>
+                </div>
+                <p class="section-copy">The final composition brings both systems together: flexible project cards inside a two-column grid</p>
+            </div>
+
+            <div class="portfolio-shell">
+                <header class="portfolio-header">
+                    <span class="portfolio-name">Alisher O.</span>
+                    <nav aria-label="Portfolio navigation">
+                        <a href="#portfolio">Projects</a>
+                        <a href="#portfolio">About</a>
+                        <a href="mailto:hello@example.com">Contact</a>
+                    </nav>
+                </header>
+
+                <div class="portfolio-grid">
+                    <div class="projects">
+                        <p class="eyebrow">Selected projects · 2025</p>
+
+                        <article class="project-row">
+                            <img src="https://images.unsplash.com/photo-1529307474719-3d0a417aaf8a?auto=format&fit=crop&w=1200&q=85" alt="Orange and black high-rise facade">
+                            <div>
+                                <span>01 / Architecture</span>
+                                <h3>North House Identity</h3>
+                                <p>A visual study of rhythm, contrast and human scale in modern urban spaces</p>
+                                <a href="#gallery">Case study <span class="arrow">-></span></a>
+                            </div>
+                        </article>
+
+                        <article class="project-row">
+                            <img src="https://images.unsplash.com/photo-1560840067-ddcaeb7831d2?auto=format&fit=crop&w=1200&q=85" alt="Blue and yellow modern building">
+                            <div>
+                                <span>02 / Color study</span>
+                                <h3>Chromatic Spaces</h3>
+                                <p>How a confident palette can turn an ordinary structure into a local landmark</p>
+                                <a href="#gallery">Case study <span class="arrow">-></span></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <aside class="profile-card">
+                        <p class="eyebrow">About</p>
+                        <h3>Independent designer focused on bold identities and clear digital experiences</h3>
+                        <p>Based in Astana, working everywhere. Available for selected projects from June</p>
+
+                        <div class="profile-links">
+                            <a href="mailto:t60200186@gmail.com">Email <span class="arrow">-></span></a>
+                            <a href="#portfolio">Behance <span class="arrow">-></span></a>
+                            <a href="#portfolio">LinkedIn <span class="arrow">-></span></a>
+                        </div>
+                    </aside>
+                </div>
+
+                <footer class="portfolio-footer">
+                    <span>Let’s make something useful</span>
+                    <a href="mailto:t60200186@gmail.com">t60200186@gmail.com</a>
+                </footer>
+            </div>
+        </section>
+    </main>
+        <footer class="demo-footer">
+            <span>Layout built with named grid areas</span>
+            <span>Alisher :P</span>
+        </footer>
+    </body>
+</html>

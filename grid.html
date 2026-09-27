@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid - Layout Lab</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="brand" href="index.html" aria-label="Layout Lab home">
+                <span class="brand-mark">L</span>
+                <span>Layout Lab</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Assignment navigation">
+                <a href="flexbox.html">Flexbox</a>
+                <a href="grid.html">Grid</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+
+            <a class="header-cta" href="flexbox.html">
+                Explore tasks <span class="arrow">-></span>
+            </a>
+        </header>
+    <main class="page-main">
+        <section class="content-section grid-section" id="grid">
+            <div class="section-intro">
+                <div class="section-number">02</div>
+                <div>
+                    <p class="eyebrow">Part two · Grid areas</p>
+                    <h2>Everything in its place</h2>
+                </div>
+                <p class="section-copy">A responsive editorial dashboard with dedicated header, sidebar, content and footer areas</p>
+            </div>
+
+            <div class="grid-demo">
+                <header class="demo-header">
+                    <span class="demo-logo">NORTH/01</span>
+                    <span class="demo-status"><i></i> Live journal</span>
+                </header>
+
+                <aside class="demo-sidebar">
+                    <p>Index</p>
+                    <nav aria-label="Demo sections">
+                        <a class="active" href="#grid"><span>01</span>Overview</a>
+                        <a href="#grid"><span>02</span>Stories</a>
+                        <a href="#grid"><span>03</span>Archive</a>
+                    </nav>
+                    <p class="sidebar-note">A weekly digest about spaces, objects and visual culture</p>
+                </aside>
+
+                <div class="demo-content">
+                    <p class="eyebrow">Featured story</p>
+                    <h3>Designing between the lines</h3>
+                    <p>Good layouts feel inevitable. Each area has a purpose, and every element knows where it belongs</p>
+
+                    <div class="metric-row">
+                        <div><strong>24</strong><span>Articles</span></div>
+                        <div><strong>08</strong><span>Authors</span></div>
+                        <div><strong>12k</strong><span>Readers</span></div>
+                    </div>
+                </div>
+
+                <footer class="demo-footer">
+                    <span>Layout built with named grid areas</span>
+                    <span>Issue 04 / 2025</span>
+                </footer>
+            </div>
+        </section>
+    </main>
+        <footer class="demo-footer">
+            <span>Layout built with named grid areas</span>
+            <span>Alisher :P</span>
+        </footer>
+    </body>
+</html>
